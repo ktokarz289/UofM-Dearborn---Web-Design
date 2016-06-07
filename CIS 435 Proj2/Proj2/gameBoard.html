@@ -1,0 +1,68 @@
+<!DOCTYPE html >
+<html>
+<head>
+<script src="gameBoardScript.js"></script> 
+<link rel="stylesheet" type="text/css" href="gameBoard.css">
+<meta charset="UTF-8">
+<body>
+<Title>15 Game - CIS 435 </Title>
+<div>
+	<h1>15 Game</h1>
+</div>
+<div id="gamedetails">
+	<button type="button" onclick="initizializeGame()">Start game!</button> 
+	<button type="button" onclick="simpleGame()">Simple mode!</button>
+	<button type="button" onclick="endgame()">Quit game!</button>
+</div>
+<div id="gameboard">
+	<table id="gametable">
+	<tr>
+	<td id="col1row1" onclick="selBlock(1,1)">
+	</td>
+	<td id="col2row1" onclick="selBlock(2,1)">
+	</td>
+	<td id="col3row1" onclick="selBlock(3,1)">
+	</td>
+	<td	id="col4row1" onclick="selBlock(4,1)">
+	</td>
+	</tr>
+	<tr>
+	<td id="col1row2" onclick="selBlock(1,2)">
+	</td>
+	<td id="col2row2" onclick="selBlock(2,2)">
+	</td>
+	<td id="col3row2" onclick="selBlock(3,2)">
+	</td>
+	<td	id="col4row2" onclick="selBlock(4,2)">
+	</td>
+	</tr>
+	<tr>
+	<td id="col1row3" onclick="selBlock(1,3)">
+	</td>
+	<td id="col2row3" onclick="selBlock(2,3)">
+	</td>
+	<td id="col3row3" onclick="selBlock(3,3)">
+	</td>
+	<td	id="col4row3" onclick="selBlock(4,3)">
+	</td>
+	</tr>
+	<tr>
+	<td id="col1row4" onclick="selBlock(1,4)">
+	</td>
+	<td id="col2row4" onclick="selBlock(2,4)">
+	</td>
+	<td id="col3row4" onclick="selBlock(3,4)">
+	</td>
+	<td	id="col4row4" onclick="selBlock(4,4)">
+	</td>
+	</tr>
+	</table>
+</div>
+<div id="moves">
+</div>
+<div id="time">
+</div>
+</div>
+</body>
+</head>
+</html>

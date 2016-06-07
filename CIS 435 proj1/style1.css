@@ -1,0 +1,54 @@
+.center{
+	text-align: center;
+	}
+table{
+	width: auto;
+	margin: 0 auto 1em;
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 3px;
+	}
+	
+body{
+		background-color: #C40000;
+	}
+
+#container{
+		background-color: #CCD3D1;
+		border: 1px solid;
+		border-radius: 25px;
+     }
+			  
+.altTable tr:nth-child(odd){
+			background-color:#C40000;
+			border: 1px solid;
+		 }
+		 
+.altTable tr:nth-child(even){
+			background-color:#FFEFD5;
+			border: 1px solid;
+		 }
+		 
+.font_controller{
+					font-family: Courier;
+				}
+.gray{
+		background-color: #CCD3D1;
+	 }
+img{border:1px solid black;
+border-radius: 20px;
+}
+
+#assignments{
+		overflow:auto;
+	}
+p{
+	padding:5px;
+  }
+#classlist{
+			position: absolute;
+			top: 70px;
+			left:50px;
+			border: 1px dotted black;
+		}

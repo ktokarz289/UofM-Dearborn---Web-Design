@@ -1,0 +1,8 @@
+#gametable td{
+			background-color:#CCFFFF;
+			border: 3px solid black;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			vertical-align: middle;
+		 }

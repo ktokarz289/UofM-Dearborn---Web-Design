@@ -1,0 +1,77 @@
+<!DOCTYPE html >
+
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style1.css">
+<script type="text/javascript">
+      function changeCSS(cssFile, cssLinkIndex) {
+ 
+        var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+ 
+        var newlink = document.createElement("link");
+        newlink.setAttribute("rel", "stylesheet");
+        newlink.setAttribute("type", "text/css");
+        newlink.setAttribute("href", cssFile);
+ 
+        document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+      }
+    </script>
+<Title> CIS 435 </Title>
+</head>
+
+<body>
+<div>
+Change styles
+<a href="#" onclick="changeCSS('style1.css', 0);"><span class="font_controller">STYLE 1</span></a>
+<a href="#" onclick="changeCSS('style2.css', 0);"><span class="font_controller">STYLE 2</span></a>
+<a href="index.html"><span class="font_controller">Home</span></a>
+</div>
+<div id="container" class="center">
+<div id="name">
+ <h1><span class="font_controller">CIS 435</span></h1>
+ <h2><span class="font_controller">Web page</span></h2>
+</div>
+</div>
+<br>
+<div class="gray">
+<div>
+<p><span class="font_controller">The study of technologies used to design and implement web-based applications. 
+Topics include web servers, HTML, CSS, CGI, JavaScript, PHP, Rich Internet Application 
+technologies, back-end database connectivity, web security, multimedia, XML, web 
+services, .NET, and semantic web. The topics covered are not in depth, but a general 
+overview to begin understanding more advanced concepts. After the class the student
+would be able to take more advanced classes based on the various topics</span></p>
+</div>
+<div>
+<h4><span class="font_controller">Topics</span></h4>
+<ul id="topics">
+	<li><span class="font_controller">HTML</span></li>
+	<li><span class="font_controller">CSS</span></li>
+	<li><span class="font_controller">JavaScript</span></li>
+	<li><span class="font_controller">XML</span></li>
+	<li><span class="font_controller">PHP</span></li>
+</ul>
+<h4><span class="font_controller">Assignments</span></h4>
+<ul id="assignment">
+	<li><span class="font_controller">Mini projects</span>
+<!-- 		<ul>
+			<li> <span class="font_controller">Project 1: In progress</span> </li>
+			<li> <span class="font_controller">Project 2: TBD</span> </li>
+			<li> <span class="font_controller">Project 3: TBD</span> </li>
+		</ul> -->
+	</li>
+	<li><span class="font_controller">Term projects</span></li>
+<!-- 		<ul>
+			<li> <span class="font_controller">Proposal: In progress</span> </li>
+			<li> <span class="font_controller">Development: TBD</span> </li>
+		</ul> -->
+	<li><span class="font_controller">Class participation</span></li>
+	<li><span class="font_controller">Exam</span>
+	<!-- <dd> <span class="font_controller">Exam 1: TBD, Students get <b>one page</b> to use as a cheat sheet</span></dd> -->
+	</li>
+</ul>
+</div>
+</div>
+</body>
+</html>

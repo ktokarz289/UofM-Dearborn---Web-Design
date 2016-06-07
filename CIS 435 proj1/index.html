@@ -1,0 +1,156 @@
+<!DOCTYPE html >
+
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style1.css">
+<script type="text/javascript">
+      function changeCSS(cssFile, cssLinkIndex) {
+ 
+        var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+ 
+        var newlink = document.createElement("link");
+        newlink.setAttribute("rel", "stylesheet");
+        newlink.setAttribute("type", "text/css");
+        newlink.setAttribute("href", cssFile);
+ 
+        document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+      }
+    </script>
+<Title> KTOKARZ Personal Page </Title>
+</head>
+
+<body>
+<div>
+Change styles
+<a href="#" onclick="changeCSS('style1.css', 0);">STYLE 1</a>
+<a href="#" onclick="changeCSS('style2.css', 0);">STYLE 2</a>
+</div>
+<div id="container" class="center">
+	<div id="name">
+	<h1><span class="font_controller">Kristopher Tokarz</span></h1>
+	</div>
+	<br>
+	<div id="info">
+	<p><span class="font_controller">I am a </span><em><span class="font_controller">senior</span></em> 
+	<span class="font_controller">attending the University of Michigan - Dearborn and soon to have a degree in <br>
+	   software engineering. I currently work at Mahle as an intern and will possible continue to <br>
+	   work for the company after graduation. In addition to work, I enjoy physical activity such <br>
+	   as football, softball and basketball. I play in several different leagues during the week. </span></p>
+	</div>
+	<br>
+	<div id="interests" class="center" >
+	<br>
+	<table class="altTable">
+	<thead>
+	<tr>
+	<td></td>
+	<td>
+	<span class="font_controller">
+	Personal interests
+	</span>
+	</td>
+	<td></td>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>
+	<span class="font_controller">
+	Favorite Sports
+	</span>
+	</td>
+	<td>
+	<span class="font_controller">
+	Favorite Books
+	</span>
+	</td>
+	<td>
+	<span class="font_controller">
+	Favorite TV shows
+	</span>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<a href="http://www.dynastypaintball.com/"><span class="font_controller">Paintball</span></a>
+	</td>
+	<td>
+	<span class="font_controller">
+	Harry Potter
+	</span>
+	</td>
+	<td>
+	<span class="font_controller">
+	Family Guy
+	</span>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<a href="http://www.detroitlions.com/"><span class="font_controller">Football</span></a>
+	</td>
+	<td>
+	<span class="font_controller">
+	The Hunger Games
+	</span>
+	</td>
+	<td>
+	<span class="font_controller">
+	The Simpsons
+	</span>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<a href="http://redwings.nhl.com/"><span class="font_controller">Hockey</span></a>
+	</td>
+	<td>
+	<span class="font_controller">
+	Bud, not Buddy
+	</span>
+	</td>
+	<td>
+	<span class="font_controller">
+	Futurama
+	</span>
+	</td>
+	</tr>
+	</tbody>
+	</table>
+	<table id="classlist">
+	<tr>
+	<td>
+	Class List
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<a href="classPage.html"><span class="font_controller">CIS 435</span></a>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<span class="font_controller">CIS 427</span>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<span class="font_controller">CIS 450</span>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<span class="font_controller">CIS 387</span>
+	</td>
+	</tr>
+	</table>
+	</div>
+	<br>
+	<div id="images">
+	<img src="puppy.jpg" alt="puppy">
+	<img src="dog.jpg" alt="doggy">
+	</div>
+</div>
+</body>
+</html>

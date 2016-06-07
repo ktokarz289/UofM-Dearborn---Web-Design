@@ -1,0 +1,44 @@
+.center{
+	
+	text-align: center;
+	}
+table{
+	width: auto;
+	margin: 0 auto 1em;
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 3px;
+	}
+	
+body{
+		background-color: #006DB0;
+	}
+
+#container{
+		background-color: #FBEC5D;
+		width: 75%;
+		border: 2px solid;
+		text-align: center;
+     }
+			  
+.altTable tr:nth-child(odd){
+			background-color:#006DB0;
+		 }
+		 
+.altTable tr:nth-child(even){
+			background-color:#FBEC5D;
+		 }
+		 
+.font_controller{
+					font-family: Times New Roman;
+				}
+				
+.gray{
+		background-color: #FBEC5D;
+		width: 75%;
+	 }
+	 
+img{border:1px solid black;
+border-radius: 120px;
+}
